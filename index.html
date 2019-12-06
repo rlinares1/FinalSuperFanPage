@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link href="images/chickenicon.png" rel="icon" type="image/x-icon" />
+		<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Chick-fil-A Sandwich Panel</title>
+	</head>
+	<body>
+		<div class="top">
+			<div class="title">
+				<img src="images/chickfilalogo.png" class="logo" id="chick" onclick="changeWebsite()">
+			</div>
+			<div class="reset">
+				<img src="images/reset.png" class="resetbutton hoverimages" onclick="resetClicked()">
+			</div>
+			<div class="about">
+				<a href="about.html" target="_blank">
+					<img src="images/about.png" class="aboutbutton hoverimages" onclick="aboutClicked()">
+				</a>
+			</div>
+		</div>
+		<div class="column">
+			<div class="rows">
+				<div class="container">
+					<img src="images/buns/whitewheat.png" class="buttons" id="one" onclick="whiteClicked(this)"/>
+					<img src="images/buns/sesame.png" class="buttons" id="two" onclick="sesameClicked(this)"/>
+					<img src="images/buns/pretzel.png" class="buttons" id="three" onclick="pretzelClicked(this)"/>
+				</div>
+			</div>
+			<div class="rows">
+				<div class="container">
+					<img src="images/cheeses/american.png" class="buttons" id="four" onclick="americanClicked(this)"/>
+					<img src="images/cheeses/colbyjack.png" class="buttons" id="five" onclick="colbyClicked(this)"/>
+					<img src="images/cheeses/pepperjack.png" class="buttons" id="six" onclick="pepperClicked(this)"/>
+				</div>
+			</div>
+			<div class="rows">
+				<div class="container">
+					<img src="images/chicken/chicken.png" class="buttons" id="ten" onclick="chickenClicked(this)"/>
+					<img src="images/chicken/spicychicken.png" class="buttons" id="eleven" onclick="spicyClicked(this)"/>
+					<img src="images/chicken/grilledchicken.png" class="buttons" id="twelve" onclick="grilledClicked(this)"/>
+				</div>
+			</div>
+			<div class="rows">
+				<div class="container">
+					<img src="images/toppings/bacon.png" class="buttons" id="seven" onclick="baconClicked(this)"/>
+					<img src="images/toppings/slicedpickles.png" class="buttons" id="eight" onclick="pickleClicked(this)"/>
+					<img src="images/toppings/tomato.png" class="buttons" id="nine" onclick="tomatoClicked(this)"/>
+				</div>
+			</div>
+			<div class="rows">
+				<div class="container">
+					<img src="images/buns/whitewheat.png" class="buttons" id="thirteen" onclick="white2Clicked(this)"/>
+					<img src="images/buns/sesame.png" class="buttons" id="fourteen" onclick="sesame2Clicked(this)"/>
+					<img src="images/buns/pretzel.png" class="buttons" id="fifteen" onclick="pretzel2Clicked(this)"/>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="rows">
+				<div class="panels" id="select-one">
+					<h1 class="selecting">
+						Select Your Ingredient
+					</h1>
+				</div>
+			</div>
+			<div class="rows">
+				<div class="panels">
+					<h1 class="selecting" id="select-two">
+						Select Your Ingredient
+					</h1>
+				</div>
+			</div>
+			<div class="rows">
+				<div class="panels">
+					<h1 class="selecting" id="select-three">
+						Select Your Ingredient
+					</h1>
+				</div>
+			</div>
+			<div class="rows">
+				<div class="panels">
+					<h1 class="selecting" id="select-four">
+						Select Your Ingredient
+					</h1>
+				</div>
+			</div>
+			<div class="rows">
+				<div class="panels">
+					<h1 class="selecting" id="select-five">
+						Select Your Ingredient
+					</h1>
+				</div>
+			</div>
+		</div>
+		
+		<audio src="sounds/coin.mp3" id="sfxpop"></audio>
+		<audio src="sounds/sunday.mp3" id="sfxmusic"></audio>
+		<audio src="sounds/shop.mp3" id="sfxabout"></audio>
+		<script src="script.js"></script>
+	</body>
+</html>
