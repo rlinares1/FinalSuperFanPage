@@ -21,7 +21,7 @@ function whiteClicked(elem){
 	c.classList.add("opaque");
 	bunactive = true;
 	checkDone();
-	console.log("eat at chickfila eric!");
+	console.log("sup");
 }
 
 function sesameClicked(elem){
